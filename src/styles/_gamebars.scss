@@ -1,0 +1,49 @@
+.page-title {
+  margin: 3rem 3rem 0 3rem;
+  font-size: 7rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 1px;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to bottom, #da98e2, #1b4458 50%);
+}
+
+.gamebars {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+}
+
+.gamebar {
+  &__name {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    letter-spacing: 1px;
+  }
+
+  &__healthbar {
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    border: 1px solid #fac65e;
+    border-image: linear-gradient(to right, #ff6972, #fac65e 80%);
+    border-image-slice: 1;
+  }
+
+  &__healthbar-top {
+    width: 80%;
+    height: 38px;
+    background-image: linear-gradient(to right, #ff6972, #fac65e 80%);
+    transition: width 500ms;
+
+    &--text {
+      letter-spacing: 1px;
+      padding-top: 10px;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  }
+}

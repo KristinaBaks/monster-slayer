@@ -1,0 +1,71 @@
+.controls,
+.log {
+  text-align: center;
+  padding: 10px;
+}
+
+button,
+button:link,
+button:visited {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  box-shadow: none;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.start-game {
+  background-color: rgba(163, 205, 216, .3);
+  transition: all 500ms;
+
+  &:hover,
+  &:active {
+    background-color: rgba(27, 68, 88, .3);
+    text-decoration: none;
+  }
+}
+
+.attack {
+  background-color: rgba(255, 105, 114, 1);
+  transition: all 500ms;
+
+  &:hover,
+  &:active {
+    background-color: rgba(255, 63, 67, 1);
+  }
+}
+
+.special-attack {
+  background-color: rgba(250, 198, 94, 1);
+  transition: all 500ms;
+
+  &:hover,
+  &:active {
+    background-color: rgba(255, 154, 43, 1);
+  }
+}
+
+.heal {
+  background-color: rgba(167, 130, 201, 1);
+  transition: all 500ms;
+
+  &:hover,
+  &:active {
+    background-color: rgba(171, 106, 231, 1);
+  }
+}
+
+.give-up {
+  background-color: rgba(154, 221, 240, 1);
+  transition: all 500ms;
+
+  &:hover,
+  &:active {
+    background-color: rgba(110, 212, 240, 1);
+  }
+}

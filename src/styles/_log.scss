@@ -1,0 +1,25 @@
+.log {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.log ul {
+  list-style: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.log ul li {
+  margin: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.log ul .player-turn {
+  background-color: rgba(228, 232, 255, .1);
+}
+
+.log ul .monster-turn {
+  background-color: #ffc0c1;
+  background-color: rgba(27, 68, 88, .2);
+}
