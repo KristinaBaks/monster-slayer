@@ -1,25 +1,25 @@
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    min-height: 100%;
-    font-size: 62.5%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    min-height: 100vh;
+  font-family: sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  min-height: 100vh;
 
-    background-color: #230372;
-    background-image: linear-gradient(to left bottom, #9addf0, #9670b9 80%);
+  background-color: #230372;
+  background-image: linear-gradient(to left bottom, #9addf0, #9670b9 80%);
 }
